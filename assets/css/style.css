@@ -1,0 +1,178 @@
+body {
+  font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+nav.navbar {
+  background: #1e202b !important;
+  padding-block: 40px !important;
+}
+
+nav .logo .text h6 {
+  font-size: 10px;
+}
+
+nav .image {
+  width: 64px;
+}
+
+.nav-item {
+  margin-inline: 2px;
+}
+
+.link {
+  padding: 1px 25px !important;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  font-weight: 400;
+  font-size: 16px;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.link:hover,
+.link.active {
+  color: #099ad8 !important;
+  border-color: #099ad8;
+}
+
+main {
+  background-color: #1e202b;
+  height: 94vh;
+}
+
+main .content {
+  height: calc(100% - 140px);
+}
+
+main .content .image {
+  background-image: url(../imgs/banner.png);
+  height: 100%;
+}
+
+.cardItem {
+  border-radius: 10px;
+  overflow: hidden;
+  background: #323544;
+}
+
+.cardItem .secound {
+  background: #262936;
+}
+
+.cardItem header {
+  background: #2d303d;
+  height: 41px;
+}
+
+.header-secound {
+  background: #222530;
+}
+
+.content .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer {
+  background: #262936;
+  height: 220px;
+}
+
+.input {
+  background: #1e202b;
+  border-radius: 30px;
+}
+
+.input input {
+  background: transparent;
+  width: 100%;
+  padding: 20px 100px 20px 20px;
+  outline: none;
+  height: 56px;
+}
+
+.input button {
+  border-radius: 30px;
+  right: 5px;
+  background: #099ad8;
+  top: 3px;
+  height: 90%;
+  transition: background 0.3s;
+}
+
+footer p {
+  color: #bfc1c8;
+}
+
+footer .social-links a {
+  width: 40px;
+  height: 40px;
+  background: #1e202b;
+  color: #009ad8;
+  line-height: 2;
+  transition: 0.3s ease;
+  font-size: 1.4285714286em;
+}
+
+footer .social-links a:hover {
+  background: #009ad8;
+  color: #fff;
+}
+
+.row {
+  background: #323544;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.row .forecast:nth-child(2) {
+  background-color: #262936;
+}
+
+.row .forecast.today .forecast-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.row .forecast.today .location {
+  font-size: 18px;
+  font-size: 1.2857142857em;
+  font-weight: 400;
+}
+.row .forecast.today .degree .num,
+.row .forecast.today .degree .forecast-icon {
+  vertical-align: middle;
+}
+.row .forecast.today .degree .num {
+  font-size: 90px;
+  font-size: 6.4285714286rem;
+  margin-right: 30px;
+}
+.row .forecast.today span {
+  margin-right: 20px;
+}
+.row .forecast.today span img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.row .forecast .forecast-header {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+.row .forecast .forecast-icon {
+  height: 50px;
+}
+.row .forecast .forecast-content {
+  padding: 50px 20px 10px;
+}
+.row .forecast .forecast-content .forecast-icon {
+  margin-bottom: 20px;
+}
+.row .forecast .forecast-content .degree {
+  font-size: 1.7142857143em;
+}
+
+.row .forecast .forecast-content small {
+  font-size: 1.1428571429em;
+}

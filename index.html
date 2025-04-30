@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- BootStrap Css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Media Style -->
+    <link rel="stylesheet" href="assets/css/media.css" />
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <div
+                class="logo d-flex justify-content-center gap-3 align-items-center"
+              >
+                <div class="image">
+                  <img
+                    src="assets/imgs/logo.png"
+                    class="w-100"
+                    alt="Logo Image"
+                  />
+                </div>
+                <div class="text">
+                  <h5 class="fs-6">Weather</h5>
+                  <h6>tagline goes here</h6>
+                </div>
+              </div>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link text-white" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link text-white" href="#">Live Cameras</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link text-white" href="#">Photos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link link text-white" href="#">contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="content position-relative">
+        <div class="image h-50"></div>
+        <div
+          class="container d-flex justify-content-center align-content-center flex-column"
+        >
+          <form class="input mb-5 col-md-12 px-2 mb-3 position-relative">
+            <input
+              id="search"
+              type="text"
+              class="text-white border-0"
+              placeholder="Find Your Location..."
+            />
+
+            <button class="btn text-white position-absolute py-0 px-4">
+              Find
+            </button>
+          </form>
+          <div class="row" id="forecast">
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer d-flex justify-content-center align-items-center">
+      <div class="container">
+        <div class="content d-flex justify-content-between align-items-center">
+          <form class="input col-md-8 px-2 mb-3 position-relative">
+            <input
+              type="text"
+              class="text-white border-0"
+              placeholder="Enter Your Email to subscribe..."
+            />
+            <button class="btn text-white position-absolute py-0 px-4">
+              Subscribe
+            </button>
+          </form>
+          <div class="col-md-3 col-md-offset-1">
+            <div class="social-links">
+              <a href="#" class="text-center d-inline-block rounded-circle"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" class="text-center d-inline-block rounded-circle"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="#" class="text-center d-inline-block rounded-circle"
+                ><i class="fa-brands fa-google-plus-g"></i
+              ></a>
+              <a href="#" class="text-center d-inline-block rounded-circle"
+                ><i class="fa-brands fa-pinterest"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <p>
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
