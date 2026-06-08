@@ -61,7 +61,7 @@ The application follows a simple but scalable front-end architecture:
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="assets/imgs/weather.png"/>
+  <img src="assets/imgs/Weather.png"/>
 </p>
 
 ---
